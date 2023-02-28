@@ -1,0 +1,99 @@
+﻿  Common.cpp
+  CustomText.cpp
+  D3DRenderer.cpp
+  Game.cpp
+  Hooking.cpp
+C:\Users\User\Desktop\Juice 999\Code\Hooking.cpp(90,3): warning C4551: Dem Funktionsaufruf fehlt die Argumentliste
+C:\Users\User\Desktop\Juice 999\Code\Hooking.cpp(88,18): warning C4100: "ms": Unreferenzierter formaler Parameter
+C:\Users\User\Desktop\Juice 999\Code\Hooking.cpp(141,7): warning C4551: Dem Funktionsaufruf fehlt die Argumentliste
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  Logger.cpp
+  LogScript.cpp
+  Main.cpp
+C:\Users\User\Desktop\Juice 999\Code\Natives.hpp(4073,51): warning C4459: Deklaration von "ignore" blendet globale Deklaration aus
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(154,31): message : Siehe Deklaration von "std::ignore"
+C:\Users\User\Desktop\Juice 999\Code\Natives.hpp(4221,73): warning C4459: Deklaration von "ignore" blendet globale Deklaration aus
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(154,31): message : Siehe Deklaration von "std::ignore"
+  ScriptCallback.cpp
+C:\Users\User\Desktop\Juice 999\Code\Natives.hpp(4073,51): warning C4459: Deklaration von "ignore" blendet globale Deklaration aus
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(154,31): message : Siehe Deklaration von "std::ignore"
+C:\Users\User\Desktop\Juice 999\Code\Natives.hpp(4221,73): warning C4459: Deklaration von "ignore" blendet globale Deklaration aus
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(154,31): message : Siehe Deklaration von "std::ignore"
+  ScriptManager.cpp
+  MainScript.cpp
+C:\Users\User\Desktop\Juice 999\Code\Natives.hpp(4073,51): warning C4459: Deklaration von "ignore" blendet globale Deklaration aus
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(154,31): message : Siehe Deklaration von "std::ignore"
+C:\Users\User\Desktop\Juice 999\Code\Natives.hpp(4221,73): warning C4459: Deklaration von "ignore" blendet globale Deklaration aus
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(154,31): message : Siehe Deklaration von "std::ignore"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(450,14): warning C4244: "return": Konvertierung von "double" in "int", möglicher Datenverlust
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(456,26): warning C4459: Deklaration von "player" blendet globale Deklaration aus
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(97,6): message : Siehe Deklaration von "Big::player"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(498,45): warning C4100: "Y": Unreferenzierter formaler Parameter
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(498,36): warning C4100: "X": Unreferenzierter formaler Parameter
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(522,14): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(525,3): warning C4551: Dem Funktionsaufruf fehlt die Argumentliste
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(538,19): warning C4459: Deklaration von "player" blendet globale Deklaration aus
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(97,6): message : Siehe Deklaration von "Big::player"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(582,19): warning C4459: Deklaration von "player" blendet globale Deklaration aus
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(97,6): message : Siehe Deklaration von "Big::player"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(627,28): warning C4305: "Argument": Verkürzung von "double" in "float"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(694,8): warning C4551: Dem Funktionsaufruf fehlt die Argumentliste
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(758,14): warning C4189: "UserID": Lokale Variable ist initialisiert aber nicht referenziert
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(774,79): warning C4305: "Argument": Verkürzung von "int" in "bool"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(775,79): warning C4305: "Argument": Verkürzung von "int" in "bool"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(988,16): warning C4459: Deklaration von "player" blendet globale Deklaration aus
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(97,6): message : Siehe Deklaration von "Big::player"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(992,8): warning C4551: Dem Funktionsaufruf fehlt die Argumentliste
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1056,97): warning C4244: "Argument": Konvertierung von "const Big::Vehicle" in "float", möglicher Datenverlust
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1056,86): warning C4244: "Argument": Konvertierung von "const Big::Ped" in "float", möglicher Datenverlust
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1056,68): warning C4244: "Argument": Konvertierung von "const Big::Hash" in "float", möglicher Datenverlust
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1152,11): warning C4551: Dem Funktionsaufruf fehlt die Argumentliste
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1227,7): warning C4551: Dem Funktionsaufruf fehlt die Argumentliste
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1277,16): warning C4459: Deklaration von "player" blendet globale Deklaration aus
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(97,6): message : Siehe Deklaration von "Big::player"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1277,7): warning C4189: "player": Lokale Variable ist initialisiert aber nicht referenziert
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1287,10): warning C4552: "+": Ergebnis des Ausdrucks nicht verwendet.
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1298,10): warning C4552: "+": Ergebnis des Ausdrucks nicht verwendet.
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1300,1): warning C4245: "Argument": Konvertierung von "int" in "Big::Hash", signed/unsigned-Konflikt.
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1318,76): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1319,13): warning C4551: Dem Funktionsaufruf fehlt die Argumentliste
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1328,27): warning C4459: Deklaration von "selectedPlayer" blendet globale Deklaration aus
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(397,6): message : Siehe Deklaration von "Big::selectedPlayer"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1335,68): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1341,82): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1346,27): warning C4459: Deklaration von "selectedPlayer" blendet globale Deklaration aus
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(397,6): message : Siehe Deklaration von "Big::selectedPlayer"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1371,27): warning C4245: "Initialisierung": Konvertierung von "int" in "Big::Hash", signed/unsigned-Konflikt.
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1404,7): warning C4551: Dem Funktionsaufruf fehlt die Argumentliste
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1384,7): warning C4101: "ClonedPed": Unreferenzierte lokale Variable
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1406,11): warning C4189: "obj": Lokale Variable ist initialisiert aber nicht referenziert
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1423,14): warning C4459: Deklaration von "ped" blendet globale Deklaration aus
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(96,6): message : Siehe Deklaration von "Big::ped"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1422,11): warning C4189: "local": Lokale Variable ist initialisiert aber nicht referenziert
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1445,9): warning C4189: "playerPed": Lokale Variable ist initialisiert aber nicht referenziert
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1696,21): warning C4459: Deklaration von "amount" blendet globale Deklaration aus
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(1685,6): message : Siehe Deklaration von "Big::amount"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(2031,10): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(2031,10): message : Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(2065,10): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(2065,10): message : Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(2077,10): warning C4127: Bedingter Ausdruck ist konstant
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(2077,10): message : Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(2222,39): warning C4018: ">=": Konflikt zwischen "signed" und "unsigned"
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(2383,4): warning C4100: "sub": Unreferenzierter formaler Parameter
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(2777,4): warning C4100: "sub": Unreferenzierter formaler Parameter
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(2969,1): warning C4459: Deklaration von "ped" blendet globale Deklaration aus
+C:\Users\User\Desktop\Juice 999\Code\MainScript.cpp(96,6): message : Siehe Deklaration von "Big::ped"
+  UIManager.cpp
+C:\Users\User\Desktop\Juice 999\Code\Natives.hpp(4073,51): warning C4459: Deklaration von "ignore" blendet globale Deklaration aus
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(154,31): message : Siehe Deklaration von "std::ignore"
+C:\Users\User\Desktop\Juice 999\Code\Natives.hpp(4221,73): warning C4459: Deklaration von "ignore" blendet globale Deklaration aus
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(154,31): message : Siehe Deklaration von "std::ignore"
+  YTLOADER.cpp
+  Code wird generiert...
+  BigBase.vcxproj -> C:\Users\User\Desktop\Juice 999\Binaries\Debug\BigBase.dll

@@ -1,0 +1,62 @@
+auto sig = Signature("48 83 EC 60 48 8D 0D ? ? ? ? E8", "GGK").Scan().Sub(17);
+		m_GameBuild = sig.Add(265 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto p_worldPtr = Signature("83 79 18 00 48 8B D1 74 4A FF 4A 18", "TTF").Scan().Sub(17);
+		m_GameBuild = sig.Add(265 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto void_location = Signature("83 79 18 00 48 8B D1 74 4A FF 4A 18", "CCDI").Scan().Sub(17);
+		m_GameBuild = sig.Add(5 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto autoc_location = Signature("48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC 30 48 8B F1 48 8B 0D ? ? ? ? 48 8B FA", "SSEL1 ->Hooked").Scan().Sub(17);
+		m_GameBuild = sig.Add(65 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto u_location = Signature("48 8D 71 28 4C 8B F2 48 8B E9 48 8B 3E EB 41 48 8B 5F 08", "SSEL2 ->Hooked").Scan().Sub(17);
+		m_GameBuild = sig.Add(5 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto d_location = Signature("3B F8 40 0F 94 C", "FSG").Scan().Sub(17);
+		m_GameBuild = sig.Add(26 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto p_PlayerList = Signature("48 83 EC 28 33 D2 E8 ? ? ? ? CC", "DGND").Scan().Sub(17);
+		m_GameBuild = sig.Add(265 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto o_blipList = Signature("45 33 F6 40 8A F2 8B D9 66 85 C0 74 31 44 0F B7 C0 33 D2 8B C1", "SSV").Scan().Sub(17);
+		m_GameBuild = sig.Add(265 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto q_replay = Signature("48 8D 0D ? ? ? ? 48 8B D7 E8 ? ? ? ? 48 8D 0D ? ? ? ? 8A D8 E8 ? ? ? ? 84 DB 75 13 48 8D 0D", "HHTE").Scan().Sub(17);
+		m_GameBuild = sig.Add(265 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto g_PlayerList = Signature("48 8B E9 48 8B 0D ? ? ? ? 0F 29 70 E8 33 DB 0F 28 F2 8B F2 8B FB", "YTSS ->Hooked").Scan().Sub(17);
+		m_GameBuild = sig.Add(65 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto q_PlayerList = Signature("66 83 FA ? 73 13 0F B7 C2 4C 89 84 C1 ? ? ? ? 4C 89 8C C1 ? ? ? ? C3", "BPAS").Scan().Sub(17);
+		m_GameBuild = sig.Add(265 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto w_PlayerList = Signature("48 8B 04 D0 4A 8B 14 00 48 8B 01 F3 44 0F 2C 42 20", "OOLG").Scan().Sub(17);
+		m_GameBuild = sig.Add(25 + 2).Rip().As<decltype(m_GameBuild)>();
+
+		auto e_PlayerList = Signature("4C 8B 0D ? ? ? ? 44 8B C1 49 8B 41 08", "HILT").Scan().Sub(17);
+		m_GameBuild = sig.Add(65 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto u_PlayerList = Signature("48 8D 0D ? ? ? ? 48 8B D7 E8 ? ? ? ? 48 8D 0D ? ? ? ? 8A D8 E8 ? ? ? ? 84 DB 75 13 48 8D 0D", "TEPORT ->Hooked").Scan().Sub(17);
+		m_GameBuild = sig.Add(25 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto b_PlayerList = Signature("4C 8B 0D ? ? ? ? 44 8B C1 49 8B 41 08", "BSSE ->Hooked").Scan().Sub(17);
+		m_GameBuild = sig.Add(25 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto y_PlayerList = Signature("4C 8B 0D ? ? ? ? 44 8B C1 49 8B 41 08", "PPSA").Scan().Sub(17);
+		m_GameBuild = sig.Add(65 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto m_PlayerList = Signature("83 79 18 00 48 8B D1 74 4A FF 4A 18", "FFST").Scan().Sub(17);
+		m_GameBuild = sig.Add(65 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto d_PlayerList = Signature("4C 8B 0D ? ? ? ? 44 8B C1 49 8B 41 08", "HZAS").Scan().Sub(17);
+		m_GameBuild = sig.Add(265 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto s_PlayerList = Signature("4C 8B 0D ? ? ? ? 44 8B C1 49 8B 41 08", "DDSSA1 ->Hooked").Scan().Sub(17);
+		m_GameBuild = sig.Add(26 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto a_PlayerList = Signature("48 8D 71 28 4C 8B F2 48 8B E9 48 8B 3E EB 41 48 8B 5F 08", "DDSSA2 ->Hooked").Scan().Sub(17);
+		m_GameBuild = sig.Add(25 + 3).Rip().As<decltype(m_GameBuild)>();
+
+		auto h_PlayerList = Signature("48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC 30 48 8B F1 48 8B 0D ? ? ? ? 48 8B FA", "DDSSA2 ->Hooked").Scan().Sub(17);
+		m_GameBuild = sig.Add(2 + 89).Rip().As<decltype(m_GameBuild)>();
